@@ -14,8 +14,10 @@ The model developed by Liljegren et al (2008) [1] is the recommended approach fo
 `coszenith.pyx` need to be compiled first to obtain a shared object file `.so` that can be import in Python. The setup tool script `setupcoszenith.py` is used for such purpose:
 - for Intel compiler: 
   - `LDSHARED="icc -shared" CC=icc python setupcoszenith.py develop`
-- for gcc compiler: 
+- for gcc compiler:
+  - replace '-qopenmp' with '-fopenmp' in the `setupcoszenith.py` file.
   - `python setupcoszenith.py build_ext --inplace`
+  
 
 ****
 ### Citation
