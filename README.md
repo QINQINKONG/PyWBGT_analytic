@@ -4,10 +4,10 @@ The model developed by Liljegren et al (2008) [1] is the recommended approach fo
 ****
 ### What is in this repository?
 - `WBGT_analytic.py`: Python script for calculating the analytic approximation of WBGT.
-- `Calculate_analytic_WBGT_with_CMIP6_data.ipynb`: A jupyter nobtebook introducing the usage of our code.
-- `environment.yml`: a YAML file that can be used to build conda environment containing all needed python packages.
 - `coszenith.pyx`: Cython code for calculating cosine zenith angle as develped by Kong and Huber (2022) [3]
 - `setupcoszenith.py`: Python setup tool script for compiling `coszenith.pyx`
+- `Calculate_analytic_WBGT_with_CMIP6_data.ipynb`: A jupyter nobtebook introducing the usage of our code.
+- `environment.yml`: a YAML file that can be used to build conda environment containing all needed python packages.
 
 ****
 ### How to compile Cython code for calculating cosine zenith angle
