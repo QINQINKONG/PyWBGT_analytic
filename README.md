@@ -6,7 +6,7 @@ The model developed by Liljegren et al (2008) [1] is the recommended approach fo
 - `WBGT_analytic.py`: Python script for calculating the analytic approximation of WBGT.
 - `Calculate_analytic_WBGT_with_CMIP6_data.ipynb`: A jupyter nobtebook introducing the usage of our code.
 - `environment.yml`: a YAML file that can be used to build conda environment containing all needed python packages.
-- `coszenith.pyx`: Cython code for calculating cosine zenith angle as develped by Kong and Huber (2022)
+- `coszenith.pyx`: Cython code for calculating cosine zenith angle as develped by Kong and Huber (2022) [3]
 - `setupcoszenith.py`: Python setup tool script for compiling `coszenith.pyx`
 
 ****
@@ -27,3 +27,6 @@ If you want to use our code, please consider cite `upcoming`
 [1] Liljegren JC, Carhart RA, Lawday P, Tschopp S, Sharp R. Modeling the wet bulb globe temperature using standard meteorological measurements. J Occup Environ Hyg. 2008;5(10):645-55. 
 
 [2] Lemke B, Kjellstrom T. Calculating workplace WBGT from meteorological data: a tool for climate change assessment. Ind Health. 2012;50(4):267-78. 
+
+[3] Kong, Q. & Huber, M. Explicit calculations of Wet Bulb Globe Temperature compared with approximations and why it matters for labor productivity. Earth’s Future (2022) doi:10.1029/2021EF002334.
+
